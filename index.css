@@ -1,0 +1,40 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.hero{
+	height: calc(100vh - 79px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url("./img/hero.png") center center/cover no-repeat;
+	margin: 0;
+}
+
+.hero a{
+	margin: 100px 0;
+	width: 280px;
+	text-align: center;
+}
+
+p{
+	margin: 30px 0;
+}
+
+.info__images img{
+	width: 32%;
+	height: 220px;
+}
+
+h2{
+	text-align: center;
+}
+
+iframe{
+	width: 50vw;
+	display: block;
+	margin: 0 auto;
+	height: 50vh;
+	border: 15px solid rgb(61, 61, 61);
+}

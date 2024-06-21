@@ -1,0 +1,26 @@
+.zbirky{
+	flex-wrap: wrap;
+	padding: 0  0 70px 0;
+	justify-content: center;
+}
+
+h1{
+	margin-top: 60px;
+	text-align: center;
+}
+
+h3{
+	margin: 20px 0;
+	color: white;
+}
+.zbirky__item{
+	width: 270px;
+	border: 3px solid rgb(173, 173, 173);
+	padding: 15px;
+}
+
+.zbirky__item img{
+	width: 100%;
+	height: 240px;
+	object-fit: contain;
+}
